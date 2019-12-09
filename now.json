@@ -1,0 +1,17 @@
+{
+	"name": "now-discordjs",
+	"version": 1,
+	"env": {
+		"TOKEN": "@discord-token"
+	},
+	"public": true,
+	"scale": {
+	  "bru1": {
+	    "min": 1,
+	    "max": 1
+	    }
+	},
+	"github": {
+		"enabled": "false"
+	}
+}

@@ -1,21 +1,35 @@
 {
-  "name": "discordjs_template",
+  "name": "create-discord-bot",
   "version": "1.0.0",
-  "description": "A template for Discordjs with command handler and example file.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Create Discord bots using a simple template.",
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot",
+    "framework"
+  ],
+  "homepage": "https://github.com/peterthehan/create-discord-bot",
+  "bugs": {
+    "url": "https://github.com/peterthehan/create-discord-bot/issues",
+    "email": "peter.han.9493@gmail.com"
   },
-  "author": "Ned from {TheSourceCode}",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.3.2",
-    "fs": "0.0.1-security",
-    "ms": "^2.1.1"
-    {
+  "license": "MIT",
+  "author": {
+    "name": "Peter Han",
+    "email": "peter.han.9493@gmail.com",
+    "url": "https://github.com/peterthehan"
+  },
+  "bin": {
+    "create-discord-bot": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterthehan/create-discord-bot.git"
+  },
   "scripts": {
-    "build": "[my-framework] build --output public"
-  }
-}
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js#master"
   }
 }
